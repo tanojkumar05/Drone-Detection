@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/drone/train/images
+val: /content/drive/MyDrive/drone/valid/images
+test: /content/drive/MyDrive/drone/test/images
+
+nc: 1
+names: ['drone']
+
+roboflow:
+  workspace: alexander437-gzzhf
+  project: tello_detect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/alexander437-gzzhf/tello_detect/dataset/1

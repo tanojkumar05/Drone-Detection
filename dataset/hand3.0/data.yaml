@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/hand/train/images
+val: /content/drive/MyDrive/hand/valid/images
+test: /content/drive/MyDrive/hand/test/images
+
+nc: 1
+names: ['hand']
+
+roboflow:
+  workspace: avans
+  project: hand_detection-iusog
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/avans/hand_detection-iusog/dataset/1
